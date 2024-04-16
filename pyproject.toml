@@ -1,0 +1,17 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "klym"
+description = "klym test for DataScience"
+readme = "README.md"
+version = "0.0.1"
+license = "MIT"
+authors = ["Cristhian Plazas"]
+exclude = [
+    "src/analysis.ipynb"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
